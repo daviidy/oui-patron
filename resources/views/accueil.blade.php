@@ -408,9 +408,9 @@
 
           <div class="modal-body signup-modal-body">
             <div class="modal-header">
-              <div class="modal-title">Using Hackr.io is Free Forever!</div>
+              <div class="modal-title">Nous serons là pour vous, TOUJOURS !!</div>
               <div class="login-needed-alert"></div>
-              <div class="modal-subtitle">Sign up using:</div>
+              <div class="modal-subtitle">Dites nous de quoi vous avez besoin :</div>
             </div>
             <div class="social-login-buttons fx">
               <div class="login-buttons">

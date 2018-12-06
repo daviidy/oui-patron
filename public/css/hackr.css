@@ -1,3 +1,5 @@
+
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -1310,7 +1312,7 @@ html {
 
 body {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff
@@ -1385,7 +1387,7 @@ hr {
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: inherit;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.5;
   color: inherit
 }
 
@@ -1430,11 +1432,11 @@ hr {
 }
 
 .h5, h5 {
-  font-size: 14px
+  font-size: 20px
 }
 
 .h6, h6 {
-  font-size: 12px
+  font-size: 18px
 }
 
 p {
@@ -1455,7 +1457,7 @@ p {
 }
 
 .small, small {
-  font-size: 85%
+  font-size: 110%
 }
 
 .mark, mark {
@@ -20663,7 +20665,7 @@ h3 {
 }
 
 .navbar-brand img {
-  height: 25px;
+  height: 48px;
   width: auto
 }
 
@@ -27629,7 +27631,7 @@ p.username-error-block {
 }
 
 .h1, .h3, .h4, .h5, .h6, h2 {
-  line-height: 1.1
+  line-height: 1.5
 }
 
 .h1 {
@@ -27673,7 +27675,7 @@ p.username-error-block {
 }
 
 .h5 {
-  font-size: 16px
+  font-size: 20px
 }
 
 .h6 {
@@ -27681,12 +27683,13 @@ p.username-error-block {
 }
 
 .subHeading {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 600;
   color: #999;
   max-width: 800px;
   margin: 0 auto;
-  letter-spacing: -.5px
+  letter-spacing: -.5px;
+  line-height: 1.5;
 }
 
 .c-errorText {
@@ -28019,7 +28022,7 @@ p.username-error-block {
 }
 
 .c-form__footer {
-  margin-top: 10px;
+  margin-top: 25px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -29157,7 +29160,8 @@ p.username-error-block {
 }
 
 .u-margin-t-md {
-  margin-top: 20px
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 @media (max-width:767px) {
@@ -29185,7 +29189,8 @@ p.username-error-block {
 }
 
 .u-margin-t-xxx-lg {
-  margin-top: 60px
+  margin-top: 60px;
+  margin-bottom: 25px;
 }
 
 @media (max-width:767px) {
@@ -29241,9 +29246,8 @@ p.username-error-block {
 .u-margin-r-xxx-lg {
   margin-right: 60px
 }
-
 .u-margin-b-sm {
-  margin-bottom: 10px
+  margin-bottom: 20px
 }
 
 .u-margin-b-md {
@@ -29436,7 +29440,7 @@ p.username-error-block {
 }
 
 .c-how__sectionImages img {
-  width: 100%
+  width: 75%
 }
 
 .u-pb-120 {

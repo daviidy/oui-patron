@@ -11,7 +11,7 @@ class CreateDemandesTable extends Migration
      *
      * @return void
      */
-    public function up()
+    public function up() 
     {
         Schema::create('demandes', function (Blueprint $table) {
             $table->increments('id');

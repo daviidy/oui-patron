@@ -12,7 +12,21 @@
 */
 
 Route::get('/', function () {
+    return view('services');
+});
+
+Route::get('/metier', function () {
     return view('accueil');
 });
 
 Route::resource('demandes','DemandeController');
+
+Route::resource('jobs','JobController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/admin', 'AdminController@admin')
+    ->middleware('is_admin')
+    ->name('admin');

@@ -34,10 +34,20 @@
                 <div class="col-xs-12 no-paddingright-desktop">
                     <div class="page--body">
                         <div class="flex-grid hackr--flex-grid home--flex-grid js-topics-list">
-                            <a href="" data-alias="cs, computer science, web development,hello, full stack,website,oops," class=" topic-grid-item js-topic-grid-item">
+                            <a href="/plomberie" data-alias="cs, computer science, web development,hello, full stack,website,oops," class=" topic-grid-item js-topic-grid-item">
                                 <img class="topic-thumbnail" alt="Intro to Programming Tutorials and Courses" src="https://d30y9cdsu7xlg0.cloudfront.net/png/69686-200.png">
                                 <p class="js-topic">Plomberie</p>
                             </a>
+                        </div>
+                         <div class="flex-grid hackr--flex-grid home--flex-grid js-topics-list menuiserie">
+                            <a   href="/menuiserie" data-alias="cs, computer science, web development,hello, full stack,website,oops," class=" topic-grid-item js-topic-grid-item">
+                                <img class="topic-thumbnail" alt="Intro to Programming Tutorials and Courses" src="https://d30y9cdsu7xlg0.cloudfront.net/png/69686-200.png">
+                                <p class="js-topic">Menuiserie</p>
+                            </a>
+                         </div>
+
+                        <div class="flex-grid hackr--flex-grid home--flex-grid js-topics-list">
+                            
                         </div>
                         <div id="no_topics_found" class="col-md-12 text-center hidden marginbottom-sm">
                             <span class="no-results"><em>Sorry, no results found!</em></span>

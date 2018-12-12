@@ -19,6 +19,15 @@ Route::get('/metier', function () {
     return view('accueil');
 });
 
+Route::get('/plomberie', function () {
+    return view('jobs.plomberie');
+});
+
+Route::get('/menuiserie', function () {
+    return view('jobs.menuiserie');
+});
+
+
 Route::resource('demandes','DemandeController');
 
 Route::resource('jobs','JobController');
